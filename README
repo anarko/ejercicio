@@ -1,0 +1,17 @@
+Linux Debian 10, Python 3.9
+
+Librerias instaladas siguendo los instructivos siguientes:
+Flask https://flask.palletsprojects.com/en/1.1.x/installation/
+Flask RestFull https://flask-restful.readthedocs.io/en/latest/installation.html
+
+Ejecutar "super_server.py" dentro del entorno virutual creado en los pasos de instalacion del Flask
+Ej( linux, para otros SO seguir la instruccines de la instalaciond e Flask ) : 
+$. venv/bin/activate
+( venv )$ python super_serber.py
+
+Dentro del mismo entorno virutal ejecutar "cliente.py" para otener una muestra de los datos consultados al super_server
+Ej ( linux, para otros SO seguir la instruccines de la instalaciond e Flask ): 
+$. venv/bin/activate
+( venv )$ python cliente.py
+
+
